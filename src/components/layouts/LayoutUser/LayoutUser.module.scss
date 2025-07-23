@@ -1,0 +1,27 @@
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	z-index: 999;
+
+	padding: 0 20px;
+	max-height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	background: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+	/* TABLET */
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+.main {
+	position: relative;
+	min-height: 90vh;
+	padding-top: calc(72px);
+}

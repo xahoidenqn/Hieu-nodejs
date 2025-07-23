@@ -1,0 +1,87 @@
+.container {
+	background: #ebebf0;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.title {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.addAddressButton {
+	background: #fff;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #000;
+
+	.iconAdd {
+		filter: brightness(0);
+	}
+
+	&:hover {
+		opacity: 0.9;
+	}
+}
+
+.addressCard {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: #fff;
+
+	.addressInfo {
+		flex-grow: 1;
+
+		.name {
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		.phone,
+		.address {
+			color: #666;
+			margin-bottom: 3px;
+			font-size: 0.9rem;
+		}
+	}
+
+	.addressActions {
+		display: flex;
+		gap: 10px;
+		font-size: 14px;
+		font-weight: 600;
+
+		.defaultButton {
+			padding: 8px;
+			background: #e4fae0;
+			color: #1dd936;
+		}
+
+		.updateButton {
+			padding: 8px;
+			background: transparent;
+			color: #0c33f3;
+		}
+
+		.deleteButton {
+			padding: 8px;
+			background: transparent;
+			color: #f44336;
+		}
+
+		.defaultTag {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 16px;
+			font-weight: 600;
+			color: #2c7be5;
+			padding: 4px 8px;
+		}
+	}
+}
